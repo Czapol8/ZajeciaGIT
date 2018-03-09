@@ -22,6 +22,10 @@ public class Hello {
 		this.helloMessage = message;
 	}
 
+	/**
+	 * Gets hello message
+	 * @return 
+	 */
 	public String getHelloMessage()
 	{
 		return helloMessage;
