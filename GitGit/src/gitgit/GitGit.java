@@ -11,11 +11,14 @@ package gitgit;
  */
 public class GitGit {
 
+	public static final String version = "v.0.1";
+	
 	/**
 	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
-		// TODO code application logic here
+		System.out.println("Welcome in GitGit program");
+		
 	}
 	
 }
