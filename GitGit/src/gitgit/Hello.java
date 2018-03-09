@@ -16,10 +16,20 @@ public class Hello {
 	public Hello() {
 		helloMessage = "Hello World!";
 	}
+	
+	public Hello(String message)
+	{
+		this.helloMessage = message;
+	}
 
-	public String sayHello()
+	public String getHelloMessage()
 	{
 		return helloMessage;
+	}
+	
+	public void setMessage(String message)
+	{
+		this.helloMessage=message;
 	}
 	
 }
