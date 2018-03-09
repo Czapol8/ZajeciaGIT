@@ -9,16 +9,14 @@ package gitgit;
  *
  * @author student
  */
-public class GitGit {
+public class Responder {
+	private String message;
+	public Responder() {
+		this.message = "Standard message";
+	}
 
-	public static final String version = "v.0.1";
-	
-	/**
-	 * @param args the command line arguments
-	 */
-	public static void main(String[] args) {
-		System.out.println("Welcome in GitGit program");
-		int test = 0;
+	public String getMessage() {
+		return message;
 	}
 	
 }
