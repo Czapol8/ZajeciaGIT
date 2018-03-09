@@ -27,9 +27,15 @@ public class Hello {
 		return helloMessage;
 	}
 	
+	/**
+	 * Set hello message
+	 * @param message 
+	 */
 	public void setMessage(String message)
 	{
 		this.helloMessage=message;
 	}
+	
+	
 	
 }
